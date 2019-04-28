@@ -11,9 +11,9 @@ npm i mfw-vue-comps --save
 
 ## Using CDLabel
 
-``` bash
+> CDLabel component have two properties you need to provide: time and format. Time means how many seconds for countdown. Format is a string you want to transform the countdown in to.
 
-# CDLabel component have two properties you need to provide: time and format. Time means how many seconds for countdown. Format is a string you want to transform the countdown in to.
+``` bash
 <template>
   <div class="page">
     <CDLabel :time="10" :format="'<span>{d}</span> <span>{h}</span>:<span>{m}</span>:<span>{s}</span>'" @over="onCDOver"></CDLabel>
