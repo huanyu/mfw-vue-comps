@@ -1,15 +1,13 @@
 /**
  * Created by hb on 2019/4/28.
  */
-
+import Vue from 'vue'
 import CDLabel from './cdLabel'
 
-// export CDLabel
+const Components = {CDLabel}
 
-const Componets = {CDLabel}
+Object.keys(Components).forEach(name => {
+  Vue.component(name, Components[name])
+})
 
-// Object.keys(Componets.forEach(name => {
-//   Vue.component(name, Componets[name])
-// }))
-
-export default Componets
+export default Components

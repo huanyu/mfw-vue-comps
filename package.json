@@ -1,7 +1,7 @@
 {
   "name": "mfw-vue-comps",
   "description": "mfw components for vue project.",
-  "version": "0.0.1",
+  "version": "0.0.9",
   "author": "jerrymy.zhang",
   "license": "MIT",
   "private": false,
