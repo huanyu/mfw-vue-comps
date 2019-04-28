@@ -7,6 +7,7 @@
 ``` bash
 # install dependencies
 npm i mfw-vue-comps --save
+```
 
 ## Using CDLabel
 
@@ -34,3 +35,4 @@ export default {
   }
 }
 </script>
+```
